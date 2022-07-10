@@ -14,6 +14,8 @@
 		5D5542242878761C003CBAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542222878761C003CBAAA /* LaunchScreen.storyboard */; };
 		5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422B28787AB8003CBAAA /* SearchViewController.swift */; };
 		5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */; };
+		5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49C287B6744004411E3 /* NTButton.swift */; };
+		5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49F287B6A09004411E3 /* NTTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5D5542252878761C003CBAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D55422B28787AB8003CBAAA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		5DE8D49C287B6744004411E3 /* NTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTButton.swift; sourceTree = "<group>"; };
+		5DE8D49F287B6A09004411E3 /* NTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			children = (
 				5D55423028787B04003CBAAA /* FavouritesView */,
 				5D55422D28787ACC003CBAAA /* SearchView */,
+				5DE8D49E287B6748004411E3 /* UIExtension */,
 				5D5542172878761B003CBAAA /* AppDelegate.swift */,
 				5D5542192878761B003CBAAA /* SceneDelegate.swift */,
 				5D55421D2878761B003CBAAA /* Main.storyboard */,
@@ -100,6 +105,15 @@
 				5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5DE8D49E287B6748004411E3 /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				5DE8D49C287B6744004411E3 /* NTButton.swift */,
+				5DE8D49F287B6A09004411E3 /* NTTextField.swift */,
+			);
+			path = UIExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +190,9 @@
 				5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */,
 				5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */,
 				5D5542182878761B003CBAAA /* AppDelegate.swift in Sources */,
+				5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */,
 				5D55421A2878761B003CBAAA /* SceneDelegate.swift in Sources */,
+				5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
