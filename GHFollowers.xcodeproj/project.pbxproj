@@ -76,6 +76,7 @@
 		5D5542162878761B003CBAAA /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				5DEED3D2287CAC6400A222FB /* UserView */,
 				5DE8D4A3287B79D7004411E3 /* FollowersListView */,
 				5D55423028787B04003CBAAA /* FavouritesView */,
 				5D55422D28787ACC003CBAAA /* SearchView */,
@@ -156,6 +157,21 @@
 			isa = PBXGroup;
 			children = (
 				5DEED3CE287CA98D00A222FB /* Follower.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DEED3D2287CAC6400A222FB /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				5DEED3D3287CAC6C00A222FB /* Model */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		5DEED3D3287CAC6C00A222FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				5DEED3D0287CAA4C00A222FB /* User.swift */,
 			);
 			path = Model;
