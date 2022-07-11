@@ -17,6 +17,10 @@
 		5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49C287B6744004411E3 /* NTButton.swift */; };
 		5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49F287B6A09004411E3 /* NTTextField.swift */; };
 		5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */; };
+		5DFF4C1F287C690A007C3CE0 /* NTTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFF4C1E287C690A007C3CE0 /* NTTitleLabel.swift */; };
+		5DFF4C21287C6A5C007C3CE0 /* NTBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */; };
+		5DFF4C23287C6B1E007C3CE0 /* NTAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */; };
+		5DFF4C25287C721F007C3CE0 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFF4C24287C721F007C3CE0 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		5DE8D49C287B6744004411E3 /* NTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTButton.swift; sourceTree = "<group>"; };
 		5DE8D49F287B6A09004411E3 /* NTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTextField.swift; sourceTree = "<group>"; };
 		5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListViewController.swift; sourceTree = "<group>"; };
+		5DFF4C1E287C690A007C3CE0 /* NTTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTitleLabel.swift; sourceTree = "<group>"; };
+		5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTBodyLabel.swift; sourceTree = "<group>"; };
+		5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTAlertViewController.swift; sourceTree = "<group>"; };
+		5DFF4C24287C721F007C3CE0 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 				5D5542202878761C003CBAAA /* Assets.xcassets */,
 				5D5542222878761C003CBAAA /* LaunchScreen.storyboard */,
 				5D5542252878761C003CBAAA /* Info.plist */,
+				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -115,6 +124,9 @@
 			children = (
 				5DE8D49C287B6744004411E3 /* NTButton.swift */,
 				5DE8D49F287B6A09004411E3 /* NTTextField.swift */,
+				5DFF4C1E287C690A007C3CE0 /* NTTitleLabel.swift */,
+				5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */,
+				5DFF4C24287C721F007C3CE0 /* UIViewController+Ext.swift */,
 			);
 			path = UIExtension;
 			sourceTree = "<group>";
@@ -207,10 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */,
+				5DFF4C23287C6B1E007C3CE0 /* NTAlertViewController.swift in Sources */,
 				5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */,
+				5DFF4C25287C721F007C3CE0 /* UIViewController+Ext.swift in Sources */,
+				5DFF4C1F287C690A007C3CE0 /* NTTitleLabel.swift in Sources */,
 				5D5542182878761B003CBAAA /* AppDelegate.swift in Sources */,
 				5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */,
 				5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */,
+				5DFF4C21287C6A5C007C3CE0 /* NTBodyLabel.swift in Sources */,
 				5D55421A2878761B003CBAAA /* SceneDelegate.swift in Sources */,
 				5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */,
 			);
