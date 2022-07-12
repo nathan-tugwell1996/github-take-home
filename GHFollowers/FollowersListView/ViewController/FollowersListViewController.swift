@@ -17,10 +17,9 @@ class FollowersListViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         NetworkManager.shared.getFollowers(for: username, page: 1) { followers, errorMessage in
             guard let followers = followers else {
-                self.presentNTAlertOnMainThread(title: "Shit", message: errorMessage!, buttonTitle: "Ok")
+                self.presentNTAlertOnMainThread(title: "Error", message: errorMessage!.rawValue, buttonTitle: "Ok")
                 return
             }
-            
             print(followers.count)
             print(followers)
         }
