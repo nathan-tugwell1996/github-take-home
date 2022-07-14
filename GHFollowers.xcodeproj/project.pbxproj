@@ -83,12 +83,12 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
-		5D38F75C287E263300F4507A /* View */ = {
+		5D38F75C287E263300F4507A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				5D38F75D287E268F00F4507A /* FollowerCell.swift */,
 			);
-			path = View;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		5D55420B2878761B003CBAAA = {
@@ -110,6 +110,7 @@
 		5D5542162878761B003CBAAA /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				5D5EF3EA2880A5FB003A5E53 /* Custom Views */,
 				5D74CE88287EFA9B00DF2282 /* UIHelpers */,
 				5D38F759287E11BA00F4507A /* Utils */,
 				5D38F756287DFEB300F4507A /* Managers */,
@@ -117,7 +118,7 @@
 				5DE8D4A3287B79D7004411E3 /* FollowersListView */,
 				5D55423028787B04003CBAAA /* FavouritesView */,
 				5D55422D28787ACC003CBAAA /* SearchView */,
-				5DE8D49E287B6748004411E3 /* UIExtension */,
+				5DE8D49E287B6748004411E3 /* Extensions */,
 				5D5542172878761B003CBAAA /* AppDelegate.swift */,
 				5D5542192878761B003CBAAA /* SceneDelegate.swift */,
 				5D55421D2878761B003CBAAA /* Main.storyboard */,
@@ -160,6 +161,52 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		5D5EF3EA2880A5FB003A5E53 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D5EF3EE2880A675003A5E53 /* Labels */,
+				5D5EF3ED2880A65A003A5E53 /* TextField */,
+				5D5EF3EC2880A64F003A5E53 /* Buttons */,
+				5D5EF3EB2880A638003A5E53 /* Views */,
+				5D38F75C287E263300F4507A /* Cells */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5D5EF3EB2880A638003A5E53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
+				5D38F761287E271D00F4507A /* NTAvatarImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D5EF3EC2880A64F003A5E53 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5DE8D49C287B6744004411E3 /* NTButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5D5EF3ED2880A65A003A5E53 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				5DE8D49F287B6A09004411E3 /* NTTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		5D5EF3EE2880A675003A5E53 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				5DFF4C1E287C690A007C3CE0 /* NTTitleLabel.swift */,
+				5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		5D74CE88287EFA9B00DF2282 /* UIHelpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,24 +215,17 @@
 			path = UIHelpers;
 			sourceTree = "<group>";
 		};
-		5DE8D49E287B6748004411E3 /* UIExtension */ = {
+		5DE8D49E287B6748004411E3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
-				5DE8D49C287B6744004411E3 /* NTButton.swift */,
-				5DE8D49F287B6A09004411E3 /* NTTextField.swift */,
-				5DFF4C1E287C690A007C3CE0 /* NTTitleLabel.swift */,
-				5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */,
 				5DFF4C24287C721F007C3CE0 /* UIViewController+Ext.swift */,
-				5D38F761287E271D00F4507A /* NTAvatarImageView.swift */,
 			);
-			path = UIExtension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5DE8D4A3287B79D7004411E3 /* FollowersListView */ = {
 			isa = PBXGroup;
 			children = (
-				5D38F75C287E263300F4507A /* View */,
 				5DEED3CD287CA98300A222FB /* Model */,
 				5DE8D4A4287B79E3004411E3 /* ViewController */,
 			);
