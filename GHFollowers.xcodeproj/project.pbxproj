@@ -18,6 +18,7 @@
 		5D5542242878761C003CBAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542222878761C003CBAAA /* LaunchScreen.storyboard */; };
 		5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422B28787AB8003CBAAA /* SearchViewController.swift */; };
 		5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */; };
+		5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */; };
 		5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */; };
 		5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49C287B6744004411E3 /* NTButton.swift */; };
 		5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49F287B6A09004411E3 /* NTTextField.swift */; };
@@ -44,6 +45,7 @@
 		5D5542252878761C003CBAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D55422B28787AB8003CBAAA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTEmptyStateUIView.swift; sourceTree = "<group>"; };
 		5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayoutHelper.swift; sourceTree = "<group>"; };
 		5DE8D49C287B6744004411E3 /* NTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTButton.swift; sourceTree = "<group>"; };
 		5DE8D49F287B6A09004411E3 /* NTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTextField.swift; sourceTree = "<group>"; };
@@ -164,6 +166,8 @@
 		5D5EF3EA2880A5FB003A5E53 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				5D5EF3F02880A6D7003A5E53 /* ImageViews */,
+				5D5EF3EF2880A6B3003A5E53 /* ViewControllers */,
 				5D5EF3EE2880A675003A5E53 /* Labels */,
 				5D5EF3ED2880A65A003A5E53 /* TextField */,
 				5D5EF3EC2880A64F003A5E53 /* Buttons */,
@@ -176,8 +180,7 @@
 		5D5EF3EB2880A638003A5E53 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
-				5D38F761287E271D00F4507A /* NTAvatarImageView.swift */,
+				5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +208,22 @@
 				5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */,
 			);
 			path = Labels;
+			sourceTree = "<group>";
+		};
+		5D5EF3EF2880A6B3003A5E53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D5EF3F02880A6D7003A5E53 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D38F761287E271D00F4507A /* NTAvatarImageView.swift */,
+			);
+			path = ImageViews;
 			sourceTree = "<group>";
 		};
 		5D74CE88287EFA9B00DF2282 /* UIHelpers */ = {
@@ -335,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */,
 				5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */,
 				5DEED3D1287CAA4C00A222FB /* User.swift in Sources */,
 				5D38F762287E271D00F4507A /* NTAvatarImageView.swift in Sources */,
