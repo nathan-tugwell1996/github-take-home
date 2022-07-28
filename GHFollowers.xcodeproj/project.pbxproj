@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5D38F758287DFEBE00F4507A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38F757287DFEBE00F4507A /* NetworkManager.swift */; };
 		5D38F75B287E11C200F4507A /* NTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38F75A287E11C200F4507A /* NTError.swift */; };
+		5D38F75E287E268F00F4507A /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38F75D287E268F00F4507A /* FollowerCell.swift */; };
+		5D38F762287E271D00F4507A /* NTAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38F761287E271D00F4507A /* NTAvatarImageView.swift */; };
 		5D5542182878761B003CBAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5542172878761B003CBAAA /* AppDelegate.swift */; };
 		5D55421A2878761B003CBAAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5542192878761B003CBAAA /* SceneDelegate.swift */; };
 		5D55421F2878761B003CBAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D55421D2878761B003CBAAA /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 		5D5542242878761C003CBAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542222878761C003CBAAA /* LaunchScreen.storyboard */; };
 		5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422B28787AB8003CBAAA /* SearchViewController.swift */; };
 		5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */; };
+		5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */; };
+		5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */; };
 		5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49C287B6744004411E3 /* NTButton.swift */; };
 		5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49F287B6A09004411E3 /* NTTextField.swift */; };
 		5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */; };
@@ -30,6 +34,8 @@
 /* Begin PBXFileReference section */
 		5D38F757287DFEBE00F4507A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5D38F75A287E11C200F4507A /* NTError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTError.swift; sourceTree = "<group>"; };
+		5D38F75D287E268F00F4507A /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		5D38F761287E271D00F4507A /* NTAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTAvatarImageView.swift; sourceTree = "<group>"; };
 		5D5542142878761B003CBAAA /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5542172878761B003CBAAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D5542192878761B003CBAAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,8 @@
 		5D5542252878761C003CBAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D55422B28787AB8003CBAAA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTEmptyStateUIView.swift; sourceTree = "<group>"; };
+		5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayoutHelper.swift; sourceTree = "<group>"; };
 		5DE8D49C287B6744004411E3 /* NTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTButton.swift; sourceTree = "<group>"; };
 		5DE8D49F287B6A09004411E3 /* NTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTextField.swift; sourceTree = "<group>"; };
 		5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,14 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		5D38F75C287E263300F4507A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5D38F75D287E268F00F4507A /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		5D55420B2878761B003CBAAA = {
 			isa = PBXGroup;
 			children = (
@@ -96,20 +112,21 @@
 		5D5542162878761B003CBAAA /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				5D5EF3EA2880A5FB003A5E53 /* Custom Views */,
+				5D74CE88287EFA9B00DF2282 /* UIHelpers */,
 				5D38F759287E11BA00F4507A /* Utils */,
 				5D38F756287DFEB300F4507A /* Managers */,
 				5DEED3D2287CAC6400A222FB /* UserView */,
 				5DE8D4A3287B79D7004411E3 /* FollowersListView */,
 				5D55423028787B04003CBAAA /* FavouritesView */,
 				5D55422D28787ACC003CBAAA /* SearchView */,
-				5DE8D49E287B6748004411E3 /* UIExtension */,
+				5DE8D49E287B6748004411E3 /* Extensions */,
 				5D5542172878761B003CBAAA /* AppDelegate.swift */,
 				5D5542192878761B003CBAAA /* SceneDelegate.swift */,
 				5D55421D2878761B003CBAAA /* Main.storyboard */,
 				5D5542202878761C003CBAAA /* Assets.xcassets */,
 				5D5542222878761C003CBAAA /* LaunchScreen.storyboard */,
 				5D5542252878761C003CBAAA /* Info.plist */,
-				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -146,16 +163,83 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		5DE8D49E287B6748004411E3 /* UIExtension */ = {
+		5D5EF3EA2880A5FB003A5E53 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D5EF3F02880A6D7003A5E53 /* ImageViews */,
+				5D5EF3EF2880A6B3003A5E53 /* ViewControllers */,
+				5D5EF3EE2880A675003A5E53 /* Labels */,
+				5D5EF3ED2880A65A003A5E53 /* TextField */,
+				5D5EF3EC2880A64F003A5E53 /* Buttons */,
+				5D5EF3EB2880A638003A5E53 /* Views */,
+				5D38F75C287E263300F4507A /* Cells */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5D5EF3EB2880A638003A5E53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D5EF3EC2880A64F003A5E53 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
 				5DE8D49C287B6744004411E3 /* NTButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5D5EF3ED2880A65A003A5E53 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
 				5DE8D49F287B6A09004411E3 /* NTTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		5D5EF3EE2880A675003A5E53 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
 				5DFF4C1E287C690A007C3CE0 /* NTTitleLabel.swift */,
 				5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		5D5EF3EF2880A6B3003A5E53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D5EF3F02880A6D7003A5E53 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D38F761287E271D00F4507A /* NTAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		5D74CE88287EFA9B00DF2282 /* UIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */,
+			);
+			path = UIHelpers;
+			sourceTree = "<group>";
+		};
+		5DE8D49E287B6748004411E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				5DFF4C24287C721F007C3CE0 /* UIViewController+Ext.swift */,
 			);
-			path = UIExtension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5DE8D4A3287B79D7004411E3 /* FollowersListView */ = {
@@ -270,13 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */,
+				5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */,
 				5DEED3D1287CAA4C00A222FB /* User.swift in Sources */,
+				5D38F762287E271D00F4507A /* NTAvatarImageView.swift in Sources */,
 				5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */,
 				5DFF4C23287C6B1E007C3CE0 /* NTAlertViewController.swift in Sources */,
 				5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */,
 				5DFF4C25287C721F007C3CE0 /* UIViewController+Ext.swift in Sources */,
 				5DFF4C1F287C690A007C3CE0 /* NTTitleLabel.swift in Sources */,
 				5D5542182878761B003CBAAA /* AppDelegate.swift in Sources */,
+				5D38F75E287E268F00F4507A /* FollowerCell.swift in Sources */,
 				5D38F75B287E11C200F4507A /* NTError.swift in Sources */,
 				5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */,
 				5DEED3CF287CA98D00A222FB /* Follower.swift in Sources */,
@@ -360,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -414,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
