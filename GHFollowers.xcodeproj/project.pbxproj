@@ -21,6 +21,9 @@
 		5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */; };
 		5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */; };
 		5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */; };
+		5DA04B0328A53E4B00597F2F /* NTSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */; };
+		5DA04B0528A53EE800597F2F /* UserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */; };
+		5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0628A54CFC00597F2F /* Constants.swift */; };
 		5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49C287B6744004411E3 /* NTButton.swift */; };
 		5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49F287B6A09004411E3 /* NTTextField.swift */; };
 		5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */; };
@@ -49,6 +52,9 @@
 		5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTEmptyStateUIView.swift; sourceTree = "<group>"; };
 		5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayoutHelper.swift; sourceTree = "<group>"; };
+		5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeaderViewController.swift; sourceTree = "<group>"; };
+		5DA04B0628A54CFC00597F2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5DE8D49C287B6744004411E3 /* NTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTButton.swift; sourceTree = "<group>"; };
 		5DE8D49F287B6A09004411E3 /* NTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTextField.swift; sourceTree = "<group>"; };
 		5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5D38F75A287E11C200F4507A /* NTError.swift */,
+				5DA04B0628A54CFC00597F2F /* Constants.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -216,6 +223,7 @@
 			children = (
 				5DFF4C1E287C690A007C3CE0 /* NTTitleLabel.swift */,
 				5DFF4C20287C6A5C007C3CE0 /* NTBodyLabel.swift */,
+				5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -224,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
+				5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -371,11 +380,14 @@
 				5D38F762287E271D00F4507A /* NTAvatarImageView.swift in Sources */,
 				5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */,
 				5DFF4C23287C6B1E007C3CE0 /* NTAlertViewController.swift in Sources */,
+				5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */,
 				5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */,
+				5DA04B0328A53E4B00597F2F /* NTSecondaryTitleLabel.swift in Sources */,
 				5DFF4C25287C721F007C3CE0 /* UIViewController+Ext.swift in Sources */,
 				5DFF4C1F287C690A007C3CE0 /* NTTitleLabel.swift in Sources */,
 				5D5542182878761B003CBAAA /* AppDelegate.swift in Sources */,
 				5D38F75E287E268F00F4507A /* FollowerCell.swift in Sources */,
+				5DA04B0528A53EE800597F2F /* UserInfoHeaderViewController.swift in Sources */,
 				5D38F75B287E11C200F4507A /* NTError.swift in Sources */,
 				5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */,
 				5DEED3CF287CA98D00A222FB /* Follower.swift in Sources */,

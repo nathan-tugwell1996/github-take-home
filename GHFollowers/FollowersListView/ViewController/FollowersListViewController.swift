@@ -12,9 +12,6 @@ class FollowersListViewController: UIViewController {
     enum Section {
         case main
     }
-
-    var collectionView: UICollectionView!
-    var dataSource: UICollectionViewDiffableDataSource<Section, Follower>!
     
     var username: String!
     var followers: [Follower] = []
@@ -23,13 +20,17 @@ class FollowersListViewController: UIViewController {
     var hasMoreFollowers = true
     var isSearching = false
     
+    var collectionView: UICollectionView!
+    var dataSource: UICollectionViewDiffableDataSource<Section, Follower>!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureCollectionView()
         configureViewController()
         configureSearchController()
-        configureDataSource()
         getFollowers(username: username, page: page)
+        configureDataSource()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -77,9 +78,11 @@ class FollowersListViewController: UIViewController {
                     DispatchQueue.main.async {
                         self.showEmptyStateView(message: message, view: self.view)
                     }
+                    return
                 }
                 
                 self.updateData(on: self.followers)
+                
             case .failure(let error):
                 self.presentNTAlertOnMainThread(title: "Error", message: error.rawValue, buttonTitle: "Ok")
             }
@@ -87,7 +90,7 @@ class FollowersListViewController: UIViewController {
     }
     
     func configureDataSource() {
-        dataSource = UICollectionViewDiffableDataSource<Section, Follower>(collectionView: collectionView, cellProvider: { collectionView, indexPath, follower in
+        dataSource = UICollectionViewDiffableDataSource<Section, Follower>(collectionView: collectionView, cellProvider: { (collectionView, indexPath, follower) -> UICollectionViewCell? in
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FollowerCell.reuseID, for: indexPath) as! FollowerCell
             cell.set(follower: follower)
             return cell

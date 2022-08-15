@@ -50,15 +50,18 @@ class NetworkManager {
     }
     
     func getUserInfo(for username: String, completed: @escaping (Result<User, NTError>) -> Void) {
-        let endPoint = baseURL + "\(username)"
-        guard let url = URL(string: endPoint) else {
+        let endpoint = baseURL + "\(username)"
+        
+        guard let url = URL(string: endpoint) else {
             completed(.failure(.invalidUsername))
             return
         }
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
+            
             if let _ = error {
                 completed(.failure(.unableToComplete))
+                return
             }
             
             guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
