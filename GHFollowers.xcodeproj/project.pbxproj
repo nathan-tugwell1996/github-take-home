@@ -21,6 +21,7 @@
 		5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */; };
 		5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */; };
 		5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */; };
+		5D91E5B428AA744100EAA674 /* NTItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D91E5B328AA744100EAA674 /* NTItemInfoView.swift */; };
 		5DA04B0328A53E4B00597F2F /* NTSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */; };
 		5DA04B0528A53EE800597F2F /* UserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */; };
 		5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0628A54CFC00597F2F /* Constants.swift */; };
@@ -52,6 +53,7 @@
 		5D55422E28787AFF003CBAAA /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTEmptyStateUIView.swift; sourceTree = "<group>"; };
 		5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayoutHelper.swift; sourceTree = "<group>"; };
+		5D91E5B328AA744100EAA674 /* NTItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTItemInfoView.swift; sourceTree = "<group>"; };
 		5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		5DA04B0628A54CFC00597F2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */,
+				5D91E5B328AA744100EAA674 /* NTItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */,
 				5DFF4C23287C6B1E007C3CE0 /* NTAlertViewController.swift in Sources */,
 				5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */,
+				5D91E5B428AA744100EAA674 /* NTItemInfoView.swift in Sources */,
 				5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */,
 				5DA04B0328A53E4B00597F2F /* NTSecondaryTitleLabel.swift in Sources */,
 				5DFF4C25287C721F007C3CE0 /* UIViewController+Ext.swift in Sources */,
