@@ -72,20 +72,20 @@ class UserInfoHeaderViewController: UIViewController {
             nameLabel.centerYAnchor.constraint(equalTo: avatarImageView.centerYAnchor, constant: 8),
             nameLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: textImagePadding),
             nameLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            nameLabel.heightAnchor.constraint(equalToConstant: padding),
+            nameLabel.heightAnchor.constraint(equalToConstant: 20),
             
             locationImageView.bottomAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: 8),
             locationImageView.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: textImagePadding),
-            locationImageView.widthAnchor.constraint(equalToConstant: padding),
-            locationImageView.heightAnchor.constraint(equalToConstant: padding),
+            locationImageView.widthAnchor.constraint(equalToConstant: 20),
+            locationImageView.heightAnchor.constraint(equalToConstant: 20),
             
             locationLabel.centerYAnchor.constraint(equalTo: locationImageView.centerYAnchor),
             locationLabel.leadingAnchor.constraint(equalTo: locationImageView.trailingAnchor, constant: 5),
             locationLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            locationLabel.heightAnchor.constraint(equalToConstant: padding),
+            locationLabel.heightAnchor.constraint(equalToConstant: 20),
             
-            bioLabel.bottomAnchor.constraint(equalTo: avatarImageView.bottomAnchor),
-            bioLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor),
+            bioLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: textImagePadding),
+            bioLabel.leadingAnchor.constraint(equalTo: avatarImageView.leadingAnchor),
             bioLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             bioLabel.heightAnchor.constraint(equalToConstant: 60)
             
