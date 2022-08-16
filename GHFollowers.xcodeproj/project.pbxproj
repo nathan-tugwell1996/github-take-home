@@ -26,6 +26,8 @@
 		5DA04B0528A53EE800597F2F /* UserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */; };
 		5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0628A54CFC00597F2F /* Constants.swift */; };
 		5DAE6BBB28ABA2CE0035C6F1 /* NTItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE6BBA28ABA2CE0035C6F1 /* NTItemInfoViewController.swift */; };
+		5DAE6BBD28ABAD450035C6F1 /* NTRepoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE6BBC28ABAD450035C6F1 /* NTRepoItemViewController.swift */; };
+		5DAE6BBF28ABAF110035C6F1 /* NTFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE6BBE28ABAF110035C6F1 /* NTFollowersViewController.swift */; };
 		5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49C287B6744004411E3 /* NTButton.swift */; };
 		5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49F287B6A09004411E3 /* NTTextField.swift */; };
 		5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */; };
@@ -59,6 +61,8 @@
 		5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		5DA04B0628A54CFC00597F2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5DAE6BBA28ABA2CE0035C6F1 /* NTItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTItemInfoViewController.swift; sourceTree = "<group>"; };
+		5DAE6BBC28ABAD450035C6F1 /* NTRepoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTRepoItemViewController.swift; sourceTree = "<group>"; };
+		5DAE6BBE28ABAF110035C6F1 /* NTFollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTFollowersViewController.swift; sourceTree = "<group>"; };
 		5DE8D49C287B6744004411E3 /* NTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTButton.swift; sourceTree = "<group>"; };
 		5DE8D49F287B6A09004411E3 /* NTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTextField.swift; sourceTree = "<group>"; };
 		5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListViewController.swift; sourceTree = "<group>"; };
@@ -236,9 +240,9 @@
 		5D5EF3EF2880A6B3003A5E53 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5DAE6BC028ABAF720035C6F1 /* ItemInfoVC */,
 				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
 				5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */,
-				5DAE6BBA28ABA2CE0035C6F1 /* NTItemInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -257,6 +261,16 @@
 				5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */,
 			);
 			path = UIHelpers;
+			sourceTree = "<group>";
+		};
+		5DAE6BC028ABAF720035C6F1 /* ItemInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DAE6BBA28ABA2CE0035C6F1 /* NTItemInfoViewController.swift */,
+				5DAE6BBC28ABAD450035C6F1 /* NTRepoItemViewController.swift */,
+				5DAE6BBE28ABAF110035C6F1 /* NTFollowersViewController.swift */,
+			);
+			path = ItemInfoVC;
 			sourceTree = "<group>";
 		};
 		5DE8D49E287B6748004411E3 /* Extensions */ = {
@@ -392,6 +406,7 @@
 				5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */,
 				5DA04B0328A53E4B00597F2F /* NTSecondaryTitleLabel.swift in Sources */,
 				5DFF4C25287C721F007C3CE0 /* UIViewController+Ext.swift in Sources */,
+				5DAE6BBF28ABAF110035C6F1 /* NTFollowersViewController.swift in Sources */,
 				5DFF4C1F287C690A007C3CE0 /* NTTitleLabel.swift in Sources */,
 				5D5542182878761B003CBAAA /* AppDelegate.swift in Sources */,
 				5D38F75E287E268F00F4507A /* FollowerCell.swift in Sources */,
@@ -401,6 +416,7 @@
 				5DEED3CF287CA98D00A222FB /* Follower.swift in Sources */,
 				5D2723E62892B7A700D18F5D /* UserInformationViewController.swift in Sources */,
 				5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */,
+				5DAE6BBD28ABAD450035C6F1 /* NTRepoItemViewController.swift in Sources */,
 				5D38F758287DFEBE00F4507A /* NetworkManager.swift in Sources */,
 				5DFF4C21287C6A5C007C3CE0 /* NTBodyLabel.swift in Sources */,
 				5D55421A2878761B003CBAAA /* SceneDelegate.swift in Sources */,
