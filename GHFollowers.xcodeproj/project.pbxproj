@@ -25,6 +25,7 @@
 		5DA04B0328A53E4B00597F2F /* NTSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */; };
 		5DA04B0528A53EE800597F2F /* UserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */; };
 		5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0628A54CFC00597F2F /* Constants.swift */; };
+		5DAE6BBB28ABA2CE0035C6F1 /* NTItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE6BBA28ABA2CE0035C6F1 /* NTItemInfoViewController.swift */; };
 		5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49C287B6744004411E3 /* NTButton.swift */; };
 		5DE8D4A0287B6A09004411E3 /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D49F287B6A09004411E3 /* NTTextField.swift */; };
 		5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */; };
@@ -57,6 +58,7 @@
 		5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		5DA04B0628A54CFC00597F2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5DAE6BBA28ABA2CE0035C6F1 /* NTItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTItemInfoViewController.swift; sourceTree = "<group>"; };
 		5DE8D49C287B6744004411E3 /* NTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTButton.swift; sourceTree = "<group>"; };
 		5DE8D49F287B6A09004411E3 /* NTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTextField.swift; sourceTree = "<group>"; };
 		5DE8D4A1287B79CD004411E3 /* FollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 			children = (
 				5DFF4C22287C6B1E007C3CE0 /* NTAlertViewController.swift */,
 				5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */,
+				5DAE6BBA28ABA2CE0035C6F1 /* NTItemInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				5D38F762287E271D00F4507A /* NTAvatarImageView.swift in Sources */,
 				5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */,
 				5DFF4C23287C6B1E007C3CE0 /* NTAlertViewController.swift in Sources */,
+				5DAE6BBB28ABA2CE0035C6F1 /* NTItemInfoViewController.swift in Sources */,
 				5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */,
 				5D91E5B428AA744100EAA674 /* NTItemInfoView.swift in Sources */,
 				5D55422C28787AB8003CBAAA /* SearchViewController.swift in Sources */,
