@@ -14,6 +14,7 @@ class UserInformationViewController: UIViewController {
     let itemViewTwo = UIView()
     var itemViews: [UIView] = []
     var username: String!
+    let dateLabel = NTBodyLabel(textAlignment: .center)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +34,7 @@ class UserInformationViewController: UIViewController {
                     self.add(childVC: UserInfoHeaderViewController(user: user), to: self.headerView)
                     self.add(childVC: NTRepoItemViewController(user: user), to: self.itemViewOne)
                     self.add(childVC: NTFollowersViewController(user: user), to: self.itemViewTwo)
+                    self.dateLabel.text = "GitHub since \(user.createdAt.convertToDisplayFormat())"
                 }
                 
             case .failure(let error):
@@ -48,7 +50,7 @@ class UserInformationViewController: UIViewController {
     }
     
     func layoutUI() {
-        itemViews = [headerView, itemViewOne, itemViewTwo]
+        itemViews = [headerView, itemViewOne, itemViewTwo, dateLabel]
         let padding: CGFloat = 20
         let itemHeight: CGFloat = 140
         
@@ -69,7 +71,10 @@ class UserInformationViewController: UIViewController {
             itemViewOne.heightAnchor.constraint(equalToConstant: itemHeight),
             
             itemViewTwo.topAnchor.constraint(equalTo: itemViewOne.bottomAnchor, constant: padding),
-            itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight)
+            itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight),
+            
+            dateLabel.topAnchor.constraint(equalTo: itemViewTwo.bottomAnchor, constant: padding),
+            dateLabel.heightAnchor.constraint(equalToConstant: 18)
         ])
     }
     

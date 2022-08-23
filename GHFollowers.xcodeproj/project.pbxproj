@@ -22,6 +22,8 @@
 		5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */; };
 		5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */; };
 		5D91E5B428AA744100EAA674 /* NTItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D91E5B328AA744100EAA674 /* NTItemInfoView.swift */; };
+		5D93B96128B5203B00ADF06D /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93B96028B5203B00ADF06D /* Date+Ext.swift */; };
+		5D93B96328B5204B00ADF06D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93B96228B5204B00ADF06D /* String+Ext.swift */; };
 		5DA04B0328A53E4B00597F2F /* NTSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */; };
 		5DA04B0528A53EE800597F2F /* UserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */; };
 		5DA04B0728A54CFC00597F2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA04B0628A54CFC00597F2F /* Constants.swift */; };
@@ -57,6 +59,8 @@
 		5D5EF3F12880A6F9003A5E53 /* NTEmptyStateUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTEmptyStateUIView.swift; sourceTree = "<group>"; };
 		5D74CE89287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayoutHelper.swift; sourceTree = "<group>"; };
 		5D91E5B328AA744100EAA674 /* NTItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTItemInfoView.swift; sourceTree = "<group>"; };
+		5D93B96028B5203B00ADF06D /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		5D93B96228B5204B00ADF06D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		5DA04B0228A53E4B00597F2F /* NTSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		5DA04B0428A53EE800597F2F /* UserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		5DA04B0628A54CFC00597F2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -277,6 +281,8 @@
 			isa = PBXGroup;
 			children = (
 				5DFF4C24287C721F007C3CE0 /* UIViewController+Ext.swift */,
+				5D93B96028B5203B00ADF06D /* Date+Ext.swift */,
+				5D93B96228B5204B00ADF06D /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -397,6 +403,7 @@
 				5D5EF3F22880A6F9003A5E53 /* NTEmptyStateUIView.swift in Sources */,
 				5D74CE8A287EFAD400DF2282 /* CollectionViewFlowLayoutHelper.swift in Sources */,
 				5DEED3D1287CAA4C00A222FB /* User.swift in Sources */,
+				5D93B96328B5204B00ADF06D /* String+Ext.swift in Sources */,
 				5D38F762287E271D00F4507A /* NTAvatarImageView.swift in Sources */,
 				5D55422F28787AFF003CBAAA /* FavouritesViewController.swift in Sources */,
 				5DFF4C23287C6B1E007C3CE0 /* NTAlertViewController.swift in Sources */,
@@ -413,6 +420,7 @@
 				5DA04B0528A53EE800597F2F /* UserInfoHeaderViewController.swift in Sources */,
 				5D38F75B287E11C200F4507A /* NTError.swift in Sources */,
 				5DE8D4A2287B79CD004411E3 /* FollowersListViewController.swift in Sources */,
+				5D93B96128B5203B00ADF06D /* Date+Ext.swift in Sources */,
 				5DEED3CF287CA98D00A222FB /* Follower.swift in Sources */,
 				5D2723E62892B7A700D18F5D /* UserInformationViewController.swift in Sources */,
 				5DE8D49D287B6744004411E3 /* NTButton.swift in Sources */,
